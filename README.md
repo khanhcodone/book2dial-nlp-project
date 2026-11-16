@@ -1,5 +1,7 @@
 # 📖 Book2dial: Generating Teacher Student Interactions from Textbooks for Cost-Effective Development of Educational Chatbots
 
+> **Group repository (CSC15011):** reproduces and extends Book2Dial. See [Group project](#group-project-csc15011) at the end of this file; the rest is the paper's original README.
+
 [ACL 2024 Findings paper](https://aclanthology.org/2024.findings-acl.578/)
 
 [ACL 2024 Video](https://www.youtube.com/watch?v=l1QCl7ENnWU)
@@ -128,3 +130,10 @@ This work is licensed under a
 
 [cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
 [cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
+
+# Group project (CSC15011)
+This repository builds on [eth-lre/book2dial](https://github.com/eth-lre/book2dial) (remote `upstream`). The original code and data belong to Wang et al. (2024) under CC BY-SA 4.0. Code added by the group lives in `src/`, `data/`, `prompts/` and `results/` (not created yet).
+
+- Project rules, plan and open questions: see [`.claude/`](.claude/). Start with [`.claude/rules/project-rules.md`](.claude/rules/project-rules.md).
+- **API keys:** never write a key into any file in this repository, including `Persona_models/.env.local` (upstream already tracks that file, so `.gitignore` does not protect it). For now use environment variables (PowerShell: `$env:OPENAI_API_KEY="<key>"`; bash: `export OPENAI_API_KEY=<key>`). The group's LLM wrapper will also read `.env`; see `.env.example`.
+- Do not commit raw downloaded data, model checkpoints or LLM caches (already in `.gitignore`).

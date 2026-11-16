@@ -1,0 +1,34 @@
+# Secrets: NEVER commit
+.env
+.env.*
+!.env.example
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Caches and run outputs (can be regenerated)
+cache/
+results/raw/
+*.ckpt
+*.pt
+*.bin
+*.safetensors
+checkpoints/
+wandb/
+
+# Raw downloaded data (large, can be fetched again)
+data/raw_openstax/
+
+# Personal files (the .claude/ folder itself is shared by the whole group)
+.claude/*.local.md
+.claude/settings.local.json
