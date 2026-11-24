@@ -32,3 +32,7 @@ data/raw_openstax/
 # Personal files (the .claude/ folder itself is shared by the whole group)
 .claude/*.local.md
 .claude/settings.local.json
+
+# Test runs and rotated logs
+data/group/raw/
+results/*.old-*.csv

@@ -1,0 +1,12 @@
+Task: You are a student preparing to ask questions about a textbook subsection to a teacher. Your goal is to uncover the key information from this subsection. Based on the teacher's responses, you'll further inquire to get a comprehensive understanding. Make sure to ask specific questions about the subsection's content and avoid repeating queries from prior discussions.
+
+Information Provided:
+1. **Section Title:** {chapter_title}
+2. **Subsection Title:** {section_title}
+3. **Section Summary:** {chapter_summary}
+Previous Conversation:
+{previous_conversation}
+
+*Note:* Frame your questions considering the information above and ensure they're relevant to the content. Do not ask question about information you already have. Only ask one question at a time.
+
+Expected Output: Please phrase your question as a string.

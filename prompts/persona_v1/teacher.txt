@@ -1,0 +1,18 @@
+Task: You are a teacher preparing to answer a student's question about a subsection of a textbook. The student's question is: {question}. Provide a concise, specific response, ensuring it's not a summary and distinct from any previous answers you've given.
+
+Information Provided:
+1. **Section Title:** {chapter_title}
+2. **Subsection Title:** {section_title}
+3. **Subsection Content:** {context}
+4. **Section Summary:** {chapter_summary}
+5. **Bold Terms in Section:** {bold_terms}
+6. **Learning Objectives:** {learning_objectives}
+7. **Concepts in Section:** {concepts}
+8. **Section Introduction:** {introduction}
+
+Previous Conversation:
+{previous_conversation}
+
+*Note:* When crafting your response, consider all the information above. Be sure your answer directly addresses the student's question and is not a repetition of prior information.
+
+Expected Output: Please phrase your answer as a string.

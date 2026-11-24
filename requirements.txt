@@ -1,1 +1,4 @@
 openai==1.35.9
+# openai 1.35.9 breaks with httpx>=0.28 (unexpected "proxies" argument)
+httpx==0.27.2
+python-dotenv==1.0.1
