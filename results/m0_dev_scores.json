@@ -1,0 +1,22 @@
+{
+  "n_samples": 534,
+  "n_empty_predictions": 0,
+  "BLEU": 0.29532036979344173,
+  "ROUGE-L": 0.12345256725351379,
+  "BERTScore-F1": 0.8545274138450623,
+  "config": {
+    "bleu_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0",
+    "rouge_use_stemmer": true,
+    "bert_model": "roberta-large",
+    "bert_hash": "roberta-large_L17_no-idf_version=0.3.12(hug_trans=5.24.1)",
+    "bert_device": "cpu",
+    "bert_batch_size": 4,
+    "versions": {
+      "sacrebleu": "2.6.0",
+      "rouge-score": "0.1.2",
+      "bert-score": "0.3.13"
+    }
+  },
+  "gold_file": "data\\splits\\dev.jsonl",
+  "prediction_file": "results\\m0_dev_predictions.jsonl"
+}
