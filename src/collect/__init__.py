@@ -1,0 +1,1 @@
+"""OpenStax collection, parsing, and deduplication utilities for Book2Dial."""
